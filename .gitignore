@@ -1,0 +1,12 @@
+# Sensitive configuration (do not commit personal JWT tokens or proxy settings)
+scripts/00_config.R
+01_scripts/00_config.R
+
+# Large downloaded public datasets, temporary caches, and binary outputs
+00_data/
+02_results/
+03_figures/
+tmp/
+*.RData
+.Rhistory
+__pycache__/
